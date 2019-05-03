@@ -1,11 +1,5 @@
-//Project done by Lukas Klevas using Google Map API's
-
-var WEATHER_API_KEY = '0653f3ac64550bec47a8a1ee42370fbc';
 var map, infoWindow, geocoder, input, autocomplete, placesearch;
-/***
- * Google maps and geolocation APIs
- */
- 
+
 //function that draws the map:
  
 function initialize() {
@@ -15,7 +9,7 @@ function initialize() {
  
 var initMap = function () {
 	var centerPosition = new google.maps.LatLng(54.687157, 25.279652);
-    map = new google.maps.Map(document.getElementById('map'), {
+   	map = new google.maps.Map(document.getElementById('map'), {
         center: centerPosition,
         zoom: 8
     });
