@@ -1,11 +1,10 @@
-# WEB system
-- [ ] Replace "WEB system" with your system name
+# GoogleMaps
 
 ## Description
-- [ ] Provide WEB system description in few sentences - its purpose, users, etc.
+- [ ] Provide user with an interactive earth map with added adress search, location localization funcionality.
 
 ## Entity definition
-- [ ] Define the entity ("object" that will be manipulated) of WEB system
+- [ ] 
 - [ ] Entity should have a name
 - [ ] Entity should have 3 mandatory attributes:
     - [ ] ID - depending on specific service this could be a number or string
@@ -34,7 +33,7 @@
 
 ## UI definition
 - [ ] Define the structure of how visually the WEB system is going to look like
-- [ ] Should have at least one view defined with https://wireframe.cc (or other wireframe tool):
+- [ ] Defined view in wireframe: https://wireframe.cc/pro/edit/245440
 - [ ] The view should have a title
 - [ ] The view should have a description of a service provided by web system
 - [ ] The view should include at least 2 UI components:
