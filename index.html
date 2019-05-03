@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>A very good project by Lukas Klevas</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    
+    <div id="map" style="width: 100%; height: 85vh"></div>
+
+    <br>
+
+    <div style="font-size: 40px; align-items: center">
+        <img id="weatherimage" src="" alt="">
+        <span id="message">Click on map!</span>
+    </div>
+	
+    <hr>
+	
+	<div style="font-size: 40px; align-items: center">
+		Enter location you'd like to find:
+	</div>
+	
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZllgebyBeIDlDU2gM_AlPIB2dqdmyOTc&libraries=places&callback=initialize"
+            async defer></script>
+			
+			
+			
+    <script src="js/main.js"></script>
+	<input type="text" name="search" onfocus="geolocate()" id="autocomplete" placeholder="Search..">
+	<hr>
+    
+	
+	
+	
+</body>
+
+</html>
